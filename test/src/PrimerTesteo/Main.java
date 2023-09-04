@@ -1,5 +1,7 @@
 package PrimerTesteo;
 
+import javax.swing.*;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -42,6 +44,19 @@ public class Main {
         gato gatito = new gato();
         gatito.maullar();
         System.out.println(gatito.edad());
+
+
+
+
+
+
+
+
+
+        ///////
+        String nombre = JOptionPane.showInputDialog("nombre");
+        if (nombre != null)
+         JOptionPane.showMessageDialog(null,"tu nombres es: " + nombre );
 
     }
 
