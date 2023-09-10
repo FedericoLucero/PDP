@@ -10,27 +10,37 @@ public class display extends JFrame implements ActionListener {
     private JButton cambiarPosicionButton;
     private JButton rotarBarcoButton;
     private JButton guardarBarcoButton;
+    private JLabel imagenLabel;  // JLabel para mostrar la imagen
 
     public display() {
         setTitle("Control de Barco");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(400, 200);
+        setSize(450, 200);
 
-        // Crear un JPanel
-        panelMain = new JPanel();
-        panelMain.setLayout(new FlowLayout());
+        // Crear un JPanel con null layout
+        panelMain = new JPanel(null);
+
+        // Crear un JLabel para mostrar la imagen
+        imagenLabel = new JLabel(new ImageIcon("src/PrimerTesteo/imagenes/soldier.jpg"));  // Reemplaza con la ruta de tu imagen
+        imagenLabel.setBounds(0, 0, 400, 200);  // Establecer posición y tamaño del JLabel
 
         // Crear botones
         cambiarPosicionButton = new JButton("Cambiar Posición");
         rotarBarcoButton = new JButton("Rotar Barco");
         guardarBarcoButton = new JButton("Guardar Barco");
 
+        // Establecer posición y tamaño de los botones
+        cambiarPosicionButton.setBounds(50, 210, 120, 30);
+        rotarBarcoButton.setBounds(180, 210, 100, 30);
+        guardarBarcoButton.setBounds(290, 210, 110, 30);
+
         // Agregar acción a los botones
         cambiarPosicionButton.addActionListener(this);
         rotarBarcoButton.addActionListener(this);
         guardarBarcoButton.addActionListener(this);
 
-        // Agregar botones al JPanel
+        // Agregar la imagen y los botones al JPanel
+        panelMain.add(imagenLabel);
         panelMain.add(cambiarPosicionButton);
         panelMain.add(rotarBarcoButton);
         panelMain.add(guardarBarcoButton);
