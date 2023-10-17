@@ -1,6 +1,5 @@
 public class Ejercicios5 {
     public static void main(String[] args) {
-
         ejercicio1a();
         ejercicio1b();
         ejercicio1c();
@@ -8,9 +7,9 @@ public class Ejercicios5 {
         ejercicio2a();
         ejercicio2b();
         ejercicio2c();
-
     }
 
+    // Ejercicio 5.1a
     public static void ejercicio1a() {
         float sum=0; int i;
         for (i = 10; 1/i > sum; i--){
@@ -19,6 +18,7 @@ public class Ejercicios5 {
         }
     }
 
+    // Ejercicio 5.1b
     public static void ejercicio1b() {
         float sum=0;
         for (int i = 10; 1/i > sum; i--){
@@ -27,6 +27,7 @@ public class Ejercicios5 {
         }
     }
 
+    // Ejercicio 5.1c
     public static void ejercicio1c() {
         for (int sum = 0, i = 10; 1/i > sum; i--){
             sum = sum + 1 / i;
@@ -34,6 +35,7 @@ public class Ejercicios5 {
         }
     }
 
+    // Ejercicio 5.2a
     public static void  ejercicio2a(){
         int a,b;
         char c;
@@ -48,6 +50,7 @@ public class Ejercicios5 {
         System.out.println("a: " + a + ", b: " + b );
     }
 
+    // Ejercicio 5.2b
     public static void  ejercicio2b(){
         int a,b;
         char c;
@@ -64,6 +67,7 @@ public class Ejercicios5 {
         System.out.println("a: " + a + ", b: " + b );
     }
 
+    // Ejercicio 5.2c
     public static void  ejercicio2c(){
         int a,b;
         char c;

@@ -3,8 +3,8 @@ public class Main {
 
         Ejercicios1 ejercicios1 = new Ejercicios1();
         ejercicios1.ejercicio1();
-        ejercicios1.ejercicio1();
-        ejercicios1.ejercicio1();
+        ejercicios1.ejercicio2();
+        ejercicios1.ejercicio3();
 
         Ejercicios2 ejercicios2 = new Ejercicios2();
         ejercicios2.ejercicio1(5, 10);
@@ -29,14 +29,10 @@ public class Main {
         ejercicios4.ejercicio6();
         ejercicios4.ejercicio7();
 
-
         Ejercicios5 ejercicios5 = new Ejercicios5();
         ejercicios5.ejercicio1a();
         ejercicios5.ejercicio1b();
         ejercicios5.ejercicio1c();
-
-
-
 
     }
 }

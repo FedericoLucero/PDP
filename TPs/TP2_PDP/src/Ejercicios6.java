@@ -11,8 +11,9 @@ public class Ejercicios6 {
 
     Scanner scanner = new Scanner(System.in);
 
+    // Ejercicio 6.1
     public void ejercicio1() {
-        System.out.print("Ingresa un caracter(1:L, 2:M2, 3:X, 4:J, 5:V, 6:S, 7:D ):");
+        System.out.print("Ingresa un caracter(1:L, 2:M, 3:X, 4:J, 5:V, 6:S, 7:D ):");
         char dia = scanner.next().charAt(0);
         switch (dia) {
             case 'L': case '1':
@@ -41,6 +42,7 @@ public class Ejercicios6 {
         }
     }
 
+    // Ejercicio 6.2
     public void ejercicio2() {
         int sumaFor = 0;
         for (int i = 1; i <= 10; i++) {
@@ -65,6 +67,7 @@ public class Ejercicios6 {
         System.out.println("Suma usando do-while: " + sumaDoWhile);
     }
 
+    // Ejercicio 6.3
     public void ejercicio3() {
         System.out.print("Ingrese true o false: ");
         String input = scanner.next();
@@ -76,6 +79,7 @@ public class Ejercicios6 {
         }
     }
 
+    // Ejercicio 6.4
     public void ejercicio4() {
         System.out.print("Ingrese un caracter para identificar si es un digito o no: ");
         char caracter = scanner.next().charAt(0);

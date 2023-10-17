@@ -6,16 +6,13 @@ public class Arbol {
         this.altura = altura;
         System.out.println("Se ha creado un árbol con altura " + altura + ".");
     }
-
     public Arbol(String nombre) {
         this.nombre = nombre;
         System.out.println("Se ha creado un árbol con nombre " + nombre + ".");
     }
-
     public Arbol() {
         System.out.println("Se ha creado un árbol genérico.");
     }
-
     public Arbol(int altura, String nombre) {
         this.altura = altura;
         this.nombre = nombre;

@@ -1,7 +1,7 @@
 public class Ejercicios7 {
     public static void main(String[] args) {
         Ejercicios7 ejercicios = new Ejercicios7();
-        ejercicios.ejercicio1();
+        ejercicios.ejercicio();
     }
 
     class Ordenador {
@@ -11,7 +11,8 @@ public class Ejercicios7 {
         }
     }
 
-    public void ejercicio1() {
+    // Ejercicio 7
+    public void ejercicio() {
         Ordenador escritorio; Ordenador portatil; //line1
 
         escritorio = new Ordenador(); //line2

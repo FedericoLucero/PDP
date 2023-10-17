@@ -11,9 +11,9 @@ public class Ejercicios4 {
         ejercicios.ejercicio6();
         ejercicios.ejercicio7();
     }
-
     Scanner scanner = new Scanner(System.in);
 
+    // Ejercicio 4.1
     public void ejercicio1() {
         char caracter;
         do {
@@ -22,6 +22,7 @@ public class Ejercicios4 {
         } while (caracter != 'X');
     }
 
+    // Ejercicio 4.2
     public void ejercicio2() {
         scanner.nextLine(); // Consumir el salto de línea pendiente
         System.out.print("Ingrese su nombre: ");
@@ -29,6 +30,7 @@ public class Ejercicios4 {
         System.out.println("Buenos días " + nombre);
     }
 
+    // Ejercicio 4.3
     public void ejercicio3() {
         System.out.print("Ingrese un número entero: ");
         int numero = scanner.nextInt();
@@ -39,6 +41,7 @@ public class Ejercicios4 {
         }
     }
 
+    // Ejercicio 4.4
     public void ejercicio4() {
         final double IVA = 0.21;
         System.out.print("Ingrese el precio del producto: ");
@@ -47,6 +50,7 @@ public class Ejercicios4 {
         System.out.println("El precio final con IVA es: " + precioFinal);
     }
 
+    // Ejercicio 4.5
     public void ejercicio5() {
         System.out.print("Ingrese el primer número: ");
         double numero1 = scanner.nextDouble();
@@ -61,6 +65,7 @@ public class Ejercicios4 {
         }
     }
 
+    // Ejercicio 4.6
     public void ejercicio6() {
         System.out.print("Ingrese la cantidad de números a promediar: ");
         int cantidad = scanner.nextInt();
@@ -76,6 +81,7 @@ public class Ejercicios4 {
         System.out.println("El promedio de los números es: " + promedio);
     }
 
+    // Ejercicio 4.7
     public void ejercicio7() {
         System.out.print("Ingrese un día de la semana (1:lunes,2:martes,3:miercoles,4:jueves,5:viernes,6:sabado,7:domingo): ");
         int dia = scanner.nextInt();
