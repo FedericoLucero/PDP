@@ -1,3 +1,5 @@
+package Ejercicios.ObjetosPuntuales;
+
 public class Sumatoria {
 
     private int[] vector;

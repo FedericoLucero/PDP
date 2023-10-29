@@ -1,3 +1,6 @@
+import Ejercicios.*;
+import Ejercicios.ObjetosPuntuales.*;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -33,6 +36,38 @@ public class Main {
         ejercicios5.ejercicio1a();
         ejercicios5.ejercicio1b();
         ejercicios5.ejercicio1c();
+        ejercicios5.ejercicio2a();
+        ejercicios5.ejercicio2b();
+        ejercicios5.ejercicio2c();
 
+
+        Ejercicios6 ejercicios6 = new Ejercicios6();
+        ejercicios6.ejercicio1();
+        ejercicios6.ejercicio2();
+        ejercicios6.ejercicio3();
+        ejercicios6.ejercicio4();
+
+        Ejercicios7 ejercicios7 = new Ejercicios7();
+        ejercicios7.ejercicio1();
+
+        Arbol arbol1 = new Arbol(4);
+        Arbol arbol2 = new Arbol("Roble");
+        Arbol arbol3 = new Arbol();
+        Arbol arbol4 = new Arbol(5, "Pino");
+
+        Persona persona1 = new Persona("Ana", 30, "Femenino", "Ingeniera");
+        persona1.saludar();
+        Punto P1 = new Punto(10,0);
+        Punto P2 = new Punto(0,0);
+        System.out.println("\ndistancia entre dos puntos " + P1.calcularDistancia(P2));
+        Sumatoria sumatoria1 = new Sumatoria();
+        System.out.println("\nTabla de multiplicar para sumatoria1:");
+        sumatoria1.mostrarTablaDeMultiplicar();
+        Libro libro1 = new Libro("978-0451524935", "Moby-Dick", "Herman Melville", 635);
+        System.out.println("\nInformación del libro 1:");
+        libro1.obtenerInformacion();
+        Fraccion fraccion1 = new Fraccion(1, 2);
+        Fraccion fraccion2 = new Fraccion(3, 4);
+        fraccion1.sumar(fraccion2);
     }
 }

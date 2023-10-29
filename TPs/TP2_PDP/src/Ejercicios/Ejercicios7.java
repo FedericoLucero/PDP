@@ -1,7 +1,9 @@
+package Ejercicios;
+
 public class Ejercicios7 {
     public static void main(String[] args) {
         Ejercicios7 ejercicios = new Ejercicios7();
-        ejercicios.ejercicio();
+        ejercicios.ejercicio1();
     }
 
     class Ordenador {
@@ -12,7 +14,7 @@ public class Ejercicios7 {
     }
 
     // Ejercicio 7
-    public void ejercicio() {
+    public void ejercicio1() {
         Ordenador escritorio; Ordenador portatil; //line1
 
         escritorio = new Ordenador(); //line2

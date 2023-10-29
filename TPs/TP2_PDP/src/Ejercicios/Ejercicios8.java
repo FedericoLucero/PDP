@@ -1,3 +1,5 @@
+package Ejercicios.ObjetosPuntuales;
+
 public class Ejercicios8 {
     public static void main(String args[]) {
 

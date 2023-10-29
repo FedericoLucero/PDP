@@ -1,3 +1,5 @@
+package Ejercicios.ObjetosPuntuales;
+
 public class Libro {
     private String isbn;
     private String titulo;

@@ -1,3 +1,5 @@
+package Ejercicios.ObjetosPuntuales;
+
 public class Persona {
     private String nombre;
     private int edad;

@@ -1,11 +1,13 @@
+package Ejercicios.ObjetosPuntuales;
+
 public class Ejercicios9 {
     public static void main(String[] args) {
 
         // Ejercicio 9.1
-        // Crea una instancia de Persona
+        // Crea una instancia de Ejercicios.ObjetosPuntuales.Persona
         Persona persona1 = new Persona("Ana", 30, "Femenino", "Ingeniera");
 
-        // Usa los métodos de Persona
+        // Usa los métodos de Ejercicios.ObjetosPuntuales.Persona
         persona1.saludar();
         persona1.cumplirAnios();
         persona1.trabajar();
@@ -24,7 +26,7 @@ public class Ejercicios9 {
 
 
         // Ejercicio 9.3
-        // Crea dos instancias de Sumatoria
+        // Crea dos instancias de Ejercicios.ObjetosPuntuales.Sumatoria
         Sumatoria sumatoria1 = new Sumatoria();
         Sumatoria sumatoria2 = new Sumatoria(3, 7);
 
@@ -44,7 +46,7 @@ public class Ejercicios9 {
 
 
         // Ejercicio 9.4
-        // Crear 5 instancias de la clase Libro
+        // Crear 5 instancias de la clase Ejercicios.ObjetosPuntuales.Libro
         Libro libro1 = new Libro("978-0451524935", "Moby-Dick", "Herman Melville", 635);
         Libro libro2 = new Libro("978-1982141512", "To Kill a Mockingbird", "Harper Lee", 336);
         Libro libro3 = new Libro("978-0743273565", "The Great Gatsby", "F. Scott Fitzgerald", 180);

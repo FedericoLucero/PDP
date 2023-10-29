@@ -1,3 +1,5 @@
+package Ejercicios;
+
 public class Ejercicios5 {
     public static void main(String[] args) {
         ejercicio1a();

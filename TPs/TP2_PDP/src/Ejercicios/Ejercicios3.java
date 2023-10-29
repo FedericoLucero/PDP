@@ -1,3 +1,5 @@
+package Ejercicios;
+
 import java.util.Arrays;
 
 public class Ejercicios3 {

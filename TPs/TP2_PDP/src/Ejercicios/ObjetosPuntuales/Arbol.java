@@ -1,3 +1,5 @@
+package Ejercicios.ObjetosPuntuales;
+
 public class Arbol {
     private int altura;
     private String nombre;
